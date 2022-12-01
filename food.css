@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=BhuTuka+Expanded+One&family=Changa:wght@200&family=Cookie&family=IM+Fell+English+SC&family=Irish+Grover&family=Rubik+Glitch&family=Square+Peg&display=swap');
+.parent{
+    height: 600px;
+    /* background-color:rgb(214, 245, 245); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -90px;
+}
+.parent1{
+    height: 600px;
+    /* background-color:rgb(214, 245, 245); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -50px;
+}
+.col{
+    width: 200px;
+    height: 400px;
+    padding: 30px;
+    border:white 2px solid;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #aaaaaa;  
+}
+.col1{
+    position: relative;
+}
+.col2{
+    position: relative;
+}
+.col3{
+    position: relative;
+}
+.col4{
+    position: relative;
+}
+img{
+    width: 100%;
+    border-radius: 40px;
+    opacity: 0.6;
+}
+img:hover{
+    opacity: 1.0;
+  }
+#l{
+    height: 63%;
+}
+#m{
+    height: 63%;
+}
+#n{
+    height: 63%;
+}
+h4{
+    text-align:center ;
+}
+#o{
+   color: #545a3d;
+   text-align:center ;
+   margin-top: 1px;
+   font-size: xx-large;
+}
+#t{
+    text-align:center ;
+    font-size: xx-large;
+    margin-top: -49px;
+    color: rgb(214, 207, 72);
+    font-family: 'Allura', cursive;
+}
+
+/* button {
+    position: absolute;
+    bottom:-155px;
+    left: -51px;
+    right: 16px;
+    opacity: 0.8;
+    border: 2px white solid;
+    box-shadow: 10px 10px 5px #f9e0e0; 
+} */
+button{
+    width: 195px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: -66px;
+    right: 35px;
+}
+button:hover{
+    background-color: white;
+    color:black;
+}
